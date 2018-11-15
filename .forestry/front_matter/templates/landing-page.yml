@@ -4,5 +4,6 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  name: promo_description
+  name: promo_heading
   label: Promo Heading
+- type: textarea
