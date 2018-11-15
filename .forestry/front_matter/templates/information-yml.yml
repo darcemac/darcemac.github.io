@@ -9,6 +9,7 @@ fields:
 - type: textarea
   name: meta_desccription
   label: Meta Description
+  description: Add in Meta description of website for SEO
 - name: email
   label: Email
   type: text
