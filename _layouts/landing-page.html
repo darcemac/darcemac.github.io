@@ -7,23 +7,31 @@ layout: default
 	e.g index.md and about.md
 {% endcomment %}
 
-{% assign stripped_content = content | strip_newlines %}
-{% if content and stripped_content != "" %}
-<section class="about">
-	<div class="container pure-g">
-		<div class="pure-u-1">
-			<div class="content content-narrow">
-				{{ content }}
-			</div>
-		</div>
+<!-- about -->
+{% include promo-block.html %}
+
+<!-- services -->
+<div id="services" class="grey-bg">
+	<div class="wrap feature">
+		<h2>Scope of Services</h2>
+		{% include services-block.html %}
 	</div>
-</section>
-{% endif %}
+</div>
 
-{% include services.html %}
+<!-- testimonial -->
+<div class="wrap wrap-inner">
+	<div class="testimonial">
+		<h2>Testimonials</h2>
+		{% include testimonial-block.html %}
+	</div>
+</div>
 
-{% include news.html %}
-
-{% include partners.html %}
-
-{% include staff.html %}
+<!-- connect -->
+<div class="connect cover" style="background-image: url({{ site.baseurl }}/images/banner-bottom.png);" alt="Banner image">
+	<div class="title">
+			<h1>Want to discuss a project?</h1>
+			<a class="cta-link" href="mailto:{{ site.email }}" target="_blank">
+					Let me give you a call
+			</a>    
+	</div>
+</div>

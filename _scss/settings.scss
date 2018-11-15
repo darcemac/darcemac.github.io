@@ -1,0 +1,31 @@
+
+// Settings
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+:root {
+    --grey-color: #9B9B9B;
+    --light-grey-color: #F8F7F5;
+    --card-grey-color: #FAFBFF;
+    --black-color: #333333;
+    --white-color: #ffffff;
+}
+
+// queries
+@custom-media --phone (min-width: 550px);
+@custom-media --tablet (min-width: 768px);
+@custom-media --desktop (min-width: 1000px);
+@custom-media --large-desktop (min-width: 1200px);
+
+
+@mixin font-smooth-wh {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke: 0.45px rgba(255, 255, 255, 0.25);
+}
+
+@mixin font-smooth {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-stroke: 0.45px rgba(153, 153, 153, 0.25);
+}
+

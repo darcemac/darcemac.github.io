@@ -1,0 +1,17 @@
+{% if page.promo %}
+<div id="about" class="homepage wrap wrap-inner">
+    <div class="container-columns promo-row">
+        {% for item in page.promo %}
+        <div class="column-flex vert-center">
+            <div class="promo-text">
+                <h2>{{ item.heading }}</h2>
+                <p>{{ item.description }}</p>
+            </div>
+        </div>
+        <div class="column-flex promo">
+            <figure><img src="{{ item.image }}" alt="About image"></figure>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

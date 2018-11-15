@@ -1,0 +1,42 @@
+<div class="navbar">
+	<div class="navbar-inner">
+
+			<div class="nav-header">
+					<a class="nav-logo" href="/" alt="Logo image">{% include bcd-logo.svg %}</a>
+			</div>
+
+			<ul class="nav-ul">
+					<li><a class="nav-link" href="#about">About</a></li> 
+					<li><a class="nav-link" href="#services">Services</a></li>
+					<li><a class="nav-link" href="mailto:{{ site.email }}" target="_blank">Contact</a></li>
+			</ul>
+
+	</div>
+</div>
+
+<div id="hidden-navbar">
+
+	<div id="hidden-navbar-inner">
+	
+			<div class="nav-header">
+					<a class="nav-logo" href="/" alt="Logo image">{% include bcd-logo.svg %}</a>
+			</div>
+
+			<ul class="nav-ul">
+					<li><a class="nav-link" href="#about">About</a></li> 
+					<li><a class="nav-link" href="#services">Services</a></li>
+					<li><a class="nav-link" href="mailto:{{ site.email }}" target="_blank">Contact</a></li>
+			</ul>
+
+	</div>
+
+</div> 
+
+<!-- hero -->
+<div class="hero cover" style="background-image: url('{{ site.baseurl }}/images/banner-top.png');" alt="Banner image">
+
+	<div class="title">
+			<h1>{{ site.banner-tagline }}</h1>
+	</div>
+
+</div>

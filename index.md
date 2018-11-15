@@ -2,31 +2,14 @@
 title: Home
 banner_image: "/img/banner.png"
 layout: landing-page
-heading: Belkirk College
-partners:
-- "/uploads/2017/11/13/stem.png"
-- "/uploads/2017/11/13/UPenn_logo.png"
-- "/uploads/2017/11/13/nysed.png"
-services:
-- description: Performing collaborative research and providing services to support
-    the Health Sector.
-  heading: Health
-  icon: "/uploads/2017/11/13/health.png"
-- description: Performing collaborative research and providing services to support
-    the biotechnology sector.
-  heading: BioTech
-  icon: "/uploads/2017/11/13/biotech.png"
-sub_heading: Engineering and Health Sciences
-textline: | 
-  Belkirk College of Engineering
+
+banner-tagline: The most trusted colour expert in the South-West.
+
+promo:
+- description: Bliss Colour & Design was started by Meagan Bliss BArch(Hons) in Dunsborough 2015, with a background as an architect and a passion for paint it became obvious that the south-west was lacking expertise in colour, style and construction knowledge so I struck out on my own to provide this service in a flexible and effective manner.
+  heading: Who is Bliss Colour and Design?
+  image: /images/uploads/interior.jpg
   
-  Ora et Labora
-hero_button:
-  text: Learn more
-  href: "/about"
-show_news: true
-menu:
-  navigation:
-    identifier: _index
-    weight: 1
+show_services: true
+  
 ---

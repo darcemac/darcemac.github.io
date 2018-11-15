@@ -1,40 +1,49 @@
-<footer class="site-footer">
-	<div class="container pure-g">
-        <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <img src="{{ "/img/logo-white.png" | absolute_url }}" alt="" class="footer-logo">
+</div>
+
+<footer>
+    <div class="wrap">
+            
+        <div class="container-columns footer">
+                
+            <div class="column column-flex">
+                <ul>
+                    <li>Contact Us</li>
+                    <li><a href="tel:{{ site.phone-clean }}">{{ site.phone }}</a></li>
+                    <li><a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a></li>
+                    <li>PO Box 987 Dunsborough WA 6281</li>
+                </ul>     
+            </div>
+
+            <div class="column column-flex">
+                <ul>
+                    <li>Social</li>
+                    <li><a href="{{ site.insta }}" target="_blank">Instagram</a></li>
+                    <li><a href="{{ site.facebook }}" target="_blank">Facebook</a></li>
+                </ul>    
+            </div>
+
+            <div class="column column-flex">
+                <a class="footer-logo" href="/" alt="Logo image">{% include bcd-f-logo.svg %}</a>
+            </div>
+        
         </div>
-        <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <h3>About {{ site.short_title }}</h3>
-            <ul>
-            {% for item in site.menus.footer %}
-                <li><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></li>
-            {% endfor %}
-            </ul>
+        
+        <div class="copyright">
+            <p>© 2018 Bliss Colour & Design <span class="display-none-mobile">- Site by <a href="https://awarecreative.com.au" target="_blank">Aware Creative</a></span></p>
         </div>
-        <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <h3>Projects</h3>
-            <ul>
-            {% for project in site.projects limit:5 %}
-                <li><a href="{{ project.url | absolute_url }}">{{ project.title }}</a></li>
-            {% endfor %}
-            {% if site.projects | size > 5 %}
-                <li><a href="{{ "/projects/" | absolute_url }}">See all projects</a></li>
-            {% endif %}
-            </ul>
-        </div>
-        <div class="footer-col pure-u-1 pure-u-md-1-4">
-            <h3>Contact</h3>
-            {% include address.html %}
-        </div>
-	</div>
-	<div class="copyright">
-        <p>
-            &copy;{{ 'now' | date: "%Y" }} {{ site.title }} - All Rights Reserved<br>
-			<a href="{{ "/admin" | absolute_url }}">Site Admin</a>
-		</p>
-	</div>
+        
+    </div>
 </footer>
-<!-- Javascript -->
-<script src="{{ "/js/main.js" | absolute_url }}" type="text/javascript"></script>
-</body>
-</html>
+
+{% if site.baseurl == "" %}
+<script src="{{ '/js/all.js' | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}"></script>
+<script src="https://cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js" async></script>
+<script>
+var galite = galite || {};
+galite.UA = 'UA-127205509-1'; 
+</script>
+{% endif %}
+
+
+
+

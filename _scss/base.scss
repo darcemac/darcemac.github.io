@@ -1,0 +1,41 @@
+
+// Base
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+p {
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+a:hover:before {
+  width: 0;
+  visibility: hidden;
+}
+
+a:focus {
+  outline: none;
+}
+
+a:active {
+  border: none
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	vertical-align: middle;
+}
+
+svg {
+	width: 100%; 
+	height: auto;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}

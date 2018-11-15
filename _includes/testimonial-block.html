@@ -1,0 +1,29 @@
+<div class="carousel glide">
+
+  <div class="glide__arrows">
+    <div class="glide__arrow prev" data-glide-dir="<"></div>
+    <div class="glide__arrow next" data-glide-dir=">"></div>
+  </div>
+  
+  <div class="glide__wrapper">
+
+    <div class="glide__track">
+    {% for client in site.data.testimonials %}
+      <div class="glide__slide">
+        <div class="box"> 
+          <p>{{ client.content }}</p>
+          <p class="t-name">&#8212; &nbsp;{{ client.name }}</p>
+        </div> 
+      </div>
+    {% endfor %}
+    </div>
+
+  </div>
+
+  <div class="glide__bullets"></div>
+
+</div>  
+
+
+
+

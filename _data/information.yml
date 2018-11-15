@@ -1,10 +1,14 @@
 ---
-phone: "+1 929 391 0976"
-email: info@belkirkcollege.com
-address_1: 500 University Ave
-address_2: ''
-city: New York
-state: NY
-postal_code: 10006
-country: US
-twitter: forestryio
+phone: "0438 409 407"
+phone_clean: "0438409407"
+email: meagan@blisscolouranddesign.com.au
+address_1: PO Box 987 Dunsborough WA 6281
+city: Dunsborough
+state: WA
+postal_code: 6281
+country: AU
+insta: "https://www.instagram.com/blisscolouranddesign"
+facebook: "https://www.facebook.com/blisscolouranddesign"
+site_tite: "Bliss Colour & Design"
+meta_description: "The most trusted colour expert in the South-West."
+

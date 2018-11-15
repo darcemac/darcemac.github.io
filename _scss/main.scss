@@ -1,0 +1,99 @@
+// CSS architecture for Bliss website
+
+@import "lib/normalize";
+@import "settings";
+@import "fonts";
+@import "typography";
+@import "animations";
+@import "base";
+@import "nav";
+@import "hero";
+@import "footer";
+@import "grid";
+@import "slider";
+
+// pages
+@import "home-page";
+@import "card";
+
+
+*,
+*:after,
+*:before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+body {
+  font-family: 'Muli', Helvetica, sans-serif;
+  color: var(--black-color);
+	font-size: 1.6em; 
+	font-weight: 300;
+	letter-spacing: .01em;
+	line-height: 1.6;
+  overflow-x: hidden
+}
+
+ul {
+  list-style: none
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+a:hover:before {
+  width: 0;
+  visibility: hidden;
+}
+
+a:focus {
+  outline: none;
+}
+
+a:active {
+  border: none
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	vertical-align: middle;
+}
+
+figure {
+  margin: 0;
+}
+
+svg {
+	width: 100%; 
+	height: auto;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+

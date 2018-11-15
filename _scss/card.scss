@@ -1,0 +1,150 @@
+
+// Card - Feature section
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.grey-bg {
+    background-color: var(--light-grey-color);
+    padding: 50px 0;
+
+    @media (min-width: 768px) {
+        padding: 100px 0;
+    }
+}
+
+.feature {
+    position: relative;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 1170px;
+
+    padding:0 8%;
+    
+    @media (--tablet) {
+        padding:0 2.5%;
+    }
+
+    h2 {
+        text-align: center;
+        padding-bottom: 30px;
+        
+        @media (--tablet) {
+            margin: 0;
+            padding-bottom: 80px;
+        }
+    }
+}
+
+.project-block {
+    display: -ms-flexbox;
+    display: flex;
+    
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    margin-bottom: 50px;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+
+    @media (min-width: 900px) {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+
+        margin-bottom: 100px;
+        
+        //&:first-of-type,
+        &:nth-of-type(2n) {
+            -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    
+            .image-card_slider {
+                width: 80%;
+                margin-left: 0;
+                height: 530px;
+            }
+        }
+
+    }
+
+    .image-card_slider {
+        position: relative;
+        z-index: 0;
+        width: 100%;
+        height: 300px;
+        min-height: 250px;
+        min-height: 25rem;
+
+        @media (--phone) {
+            height: 400px;
+        }
+
+        @media (min-width: 900px) {
+            width: 80%;
+            height: 530px;
+        }
+
+        img {
+            max-height: 530px;
+        }
+    
+    }
+
+    .image-card_card {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+
+        @media (min-width: 900px) {
+            width: 50%;
+            max-width: 48rem;
+        }
+
+        .card {
+            display: block;
+            background: var(--card-grey-color);
+            padding: 30px;
+            min-height: 100%;
+            display: -ms-flexbox;
+            display: flex;
+            
+            text-decoration: none !important;
+        
+            @media (min-width: 900px) {
+                padding: 60px;
+            }
+
+            .card-flex-inner {
+                display: block;
+            
+                p {
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+
+                    font-family: Muli;
+                    font-size: 16px;
+                    color: var(--grey-color);
+                    text-decoration: none;
+                }
+
+                button.cta {
+                    margin-top: 20px;  
+                }
+
+            }
+
+        }
+
+    }    
+
+}
+
+
+
+
