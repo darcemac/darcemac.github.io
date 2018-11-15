@@ -3,19 +3,6 @@ label: landing-page
 hide_body: true
 is_partial: false
 fields:
-- type: text
-  name: promo-heading
-  label: Promo Heading
-- type: textarea
-  label: Promo Description
-  name: promo-description
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-- type: file
-  label: Promo Image
-  name: promo-image
 - type: field_group
   name: promo
   label: Promo
