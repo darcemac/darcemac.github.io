@@ -13,8 +13,8 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: address_1
-  label: Address 1
+- name: address
+  label: 'Address '
   type: text
   hidden: false
   default: ''
@@ -38,5 +38,9 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: text
+  name: phone_clean
+  label: Phone Clean
+  description: Phone without spaces
 pages:
 - _data/information.yml
