@@ -3,13 +3,6 @@ label: landing-page
 hide_body: true
 is_partial: false
 fields:
-- name: title
-  label: Title
-  type: text
-  hidden: false
-  default: ''
-  config:
-    required: true
 - type: text
   label: Banner Title
   name: banner_tagline
