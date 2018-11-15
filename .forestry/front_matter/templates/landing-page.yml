@@ -11,4 +11,4 @@ fields:
   name: promo-description
 - type: file
   label: Promo Image
-  name: promo_image
+  name: promo-image
