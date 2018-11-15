@@ -7,3 +7,5 @@ fields:
   name: promo_heading
   label: Promo Heading
 - type: textarea
+  label: Promo Description
+  name: promo_description
