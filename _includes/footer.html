@@ -2,23 +2,24 @@
 
 <footer>
     <div class="wrap">
-            
+        {% if site.data.information %}
+        {% assign info = site.data.information %}  
         <div class="container-columns footer">
                 
             <div class="column column-flex">
                 <ul>
                     <li>Contact Us</li>
-                    <li><a href="tel:{{ site.phone-clean }}">{{ site.phone }}</a></li>
-                    <li><a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a></li>
-                    <li>PO Box 987 Dunsborough WA 6281</li>
+                    <li><a href="tel:{{ info.phone_clean }}">{{ info.phone }}</a></li>
+                    <li><a href="mailto:{{ info.email }}" target="_blank">{{ info.email }}</a></li>
+                    <li>{{ info.address }}</li>
                 </ul>     
             </div>
 
             <div class="column column-flex">
                 <ul>
                     <li>Social</li>
-                    <li><a href="{{ site.insta }}" target="_blank">Instagram</a></li>
-                    <li><a href="{{ site.facebook }}" target="_blank">Facebook</a></li>
+                    <li><a href="{{ info.insta }}" target="_blank">Instagram</a></li>
+                    <li><a href="{{ info.facebook }}" target="_blank">Facebook</a></li>
                 </ul>    
             </div>
 
@@ -31,6 +32,7 @@
         <div class="copyright">
             <p>© 2018 Bliss Colour & Design <span class="display-none-mobile">- Site by <a href="https://awarecreative.com.au" target="_blank">Aware Creative</a></span></p>
         </div>
+        {% endif %}
         
     </div>
 </footer>
@@ -43,7 +45,3 @@ var galite = galite || {};
 galite.UA = 'UA-127205509-1'; 
 </script>
 {% endif %}
-
-
-
-
