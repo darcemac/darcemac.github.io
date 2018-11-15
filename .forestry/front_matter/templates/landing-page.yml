@@ -14,8 +14,8 @@ fields:
   config:
     maxSize: '1'
 - type: textarea
-  name: textline
-  label: Description
+  name: description
+  label: Promo Description
   config:
     wysiwyg: true
     required: true
