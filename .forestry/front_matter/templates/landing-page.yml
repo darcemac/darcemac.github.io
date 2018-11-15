@@ -9,6 +9,10 @@ fields:
 - type: textarea
   label: Promo Description
   name: promo-description
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: file
   label: Promo Image
   name: promo-image
