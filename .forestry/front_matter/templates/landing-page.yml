@@ -19,7 +19,7 @@ fields:
       required: true
       wysiwyg: true
       schema:
-        format: markdown
+        format: html-blocks
   - type: file
     name: image
     label: Image
