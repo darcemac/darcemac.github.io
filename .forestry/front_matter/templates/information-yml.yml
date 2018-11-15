@@ -18,11 +18,6 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: address_2
-  label: Address 2
-  type: text
-  hidden: false
-  default: ''
 - name: city
   label: City
   type: text
@@ -40,11 +35,6 @@ fields:
   default: ''
 - name: country
   label: Country
-  type: text
-  hidden: false
-  default: ''
-- name: twitter
-  label: Twitter
   type: text
   hidden: false
   default: ''
