@@ -11,19 +11,15 @@ fields:
   config:
     required: true
 - type: text
-  label: Hero Heading
-  name: heading
+  label: Banner Title
+  name: banner_tagline
   default: Belkirk College
-- type: text
-  name: sub_heading
-  label: Hero Sub heading
-  default: Engineering and Health Sciences
 - type: file
   name: banner_image
-  label: Hero Image
-  description: 'Dimensions: 1200px by 580px'
+  label: Banner Image
+  description: 'Dimensions: 1400px by 400px'
   config:
-    maxSize: '2'
+    maxSize: '1'
 - type: field_group
   name: hero_button
   label: Hero Button
