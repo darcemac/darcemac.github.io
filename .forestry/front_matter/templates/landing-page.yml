@@ -1,0 +1,8 @@
+---
+label: landing-page
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: promo_description
+  label: Promo Heading
