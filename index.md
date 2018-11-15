@@ -18,5 +18,6 @@ description: Bliss Colour & Design was started by Meagan Bliss BArch(Hons) in Du
   2015, with a background as an architect and a passion for paint it became obvious
   that the south-west was lacking expertise in colour, style and construction knowledge
   so I struck out on my own to provide this service in a flexible and effective manner.
+promo_description: Yo wassup
 
 ---
