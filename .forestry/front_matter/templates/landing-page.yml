@@ -4,17 +4,7 @@ hide_body: true
 is_partial: false
 fields:
 - type: text
-  label: Banner Title
-  name: banner_tagline
-  default: Belkirk College
-- type: file
-  name: banner_image
-  label: Banner Image
-  description: 'Dimensions: 1400px by 400px'
-  config:
-    maxSize: '1'
-- type: text
-  name: promo_heading
+  name: heading
   label: Promo Heading
 - type: textarea
   name: description
