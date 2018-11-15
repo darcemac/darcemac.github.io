@@ -23,3 +23,6 @@ fields:
   - type: text
     name: heading
     label: Heading
+  - type: textarea
+    name: description
+    label: Description
