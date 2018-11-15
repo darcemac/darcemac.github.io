@@ -24,9 +24,6 @@ fields:
   type: text
   hidden: false
   default: ''
-- type: number
-  name: phone
-  label: Phone
 - type: text
   name: insta
   label: Insta
