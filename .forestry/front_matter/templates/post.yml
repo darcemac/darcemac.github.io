@@ -22,20 +22,3 @@ fields:
   type: tag_list
   hidden: false
   default: ''
-- type: file
-  name: banner_image
-  label: Banner Image
-  description: Ideal dimensions 2500px by 1200px
-- type: list
-  name: related_posts
-  label: Related Posts
-  config:
-    use_select: true
-    source:
-      type: pages
-      section: posts
-- name: layout
-  label: Layout
-  type: text
-  hidden: true
-  default: post
