@@ -10,8 +10,12 @@ promo-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
   diam rhoncus faucibus. Curabitur quis varius libero. Lorem.
 promo-image: "/images/uploads/interior.jpg"
 promo:
-  heading: Yo wassup?
+  heading: Who is Bliss Colour and Design?
   image: "/images/uploads/interior.jpg"
-  description: Lorem Ipsum
+  description: Bliss Colour & Design was started by Meagan Bliss BArch(Hons) in Dunsborough
+    2015, with a background as an architect and a passion for paint it became obvious
+    that the south-west was lacking expertise in colour, style and construction knowledge
+    so I struck out on my own to provide this service in a flexible and effective
+    manner.
 
 ---
