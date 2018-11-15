@@ -13,7 +13,7 @@ promo:
   image: "/images/uploads/interior.jpg"
 show_services: true
 banner_tagline: The most trusted colour expert in the South-West.
-promo_heading: Who is Bliss Colour and Design
+promo_heading: Who is Bliss Colour and Design?
 description: Bliss Colour & Design was started by Meagan Bliss BArch(Hons) in Dunsborough
   2015, with a background as an architect and a passion for paint it became obvious
   that the south-west was lacking expertise in colour, style and construction knowledge
