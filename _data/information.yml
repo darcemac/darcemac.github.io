@@ -1,14 +1,15 @@
 ---
-phone: "0438 409 407"
-phone_clean: "0438409407"
+phone: '0438 409 407'
 email: meagan@blisscolouranddesign.com.au
 address_1: PO Box 987 Dunsborough WA 6281
+address_2: ''
 city: Dunsborough
 state: WA
 postal_code: 6281
 country: AU
-insta: "https://www.instagram.com/blisscolouranddesign"
-facebook: "https://www.facebook.com/blisscolouranddesign"
-site_tite: "Bliss Colour & Design"
-meta_description: "The most trusted colour expert in the South-West."
-
+twitter: ''
+phone_clean: '0438409407'
+insta: https://www.instagram.com/blisscolouranddesign
+facebook: https://www.facebook.com/blisscolouranddesign
+site_tite: Bliss Colour & Design
+meta_description: The most trusted colour expert in the South-West.
