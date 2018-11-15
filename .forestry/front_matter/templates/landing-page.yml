@@ -19,3 +19,7 @@ fields:
 - type: field_group
   name: promo
   label: Promo
+  fields:
+  - type: text
+    name: heading
+    label: Heading
