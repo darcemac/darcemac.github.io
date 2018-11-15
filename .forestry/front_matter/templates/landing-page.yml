@@ -13,16 +13,6 @@ fields:
   description: 'Dimensions: 1400px by 400px'
   config:
     maxSize: '1'
-- type: field_group
-  name: hero_button
-  label: Hero Button
-  fields:
-  - type: text
-    name: text
-    label: Text
-  - type: text
-    name: href
-    label: Link
 - type: textarea
   name: textline
   label: Description
@@ -52,17 +42,6 @@ fields:
     default: ''
   hidden: false
   default: ''
-- type: boolean
-  name: show_news
-  label: Show News?
-  description: Enables a news section with a twitter feed & latest posts
-- type: image_gallery
-  name: partners
-  label: Partner Logos
-- type: boolean
-  name: show_staff
-  label: Show Staff?
-  description: Enables a staff section that lists each person in the People collection
 - name: layout
   label: Layout
   type: text
