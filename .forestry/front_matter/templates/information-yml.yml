@@ -29,7 +29,7 @@ fields:
   label: Insta
   description: Add instagram URL
 - type: text
-  name: facebook_
+  name: facebook
   label: 'Facebook '
   description: Add facebook URL
 pages:
