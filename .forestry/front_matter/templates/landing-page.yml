@@ -47,5 +47,8 @@ fields:
   type: text
   hidden: true
   default: home
+- type: text
+  name: promo_heading
+  label: Promo Heading
 pages:
 - index.md
