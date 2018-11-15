@@ -9,3 +9,6 @@ fields:
 - type: textarea
   label: Promo Description
   name: promo_description
+- type: file
+  label: Promo Image
+  name: promo_image
