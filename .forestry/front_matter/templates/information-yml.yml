@@ -31,5 +31,9 @@ fields:
   name: insta
   label: Insta
   description: Add instagram URL
+- type: text
+  name: facebook_
+  label: 'Facebook '
+  description: Add facebook URL
 pages:
 - _data/information.yml
