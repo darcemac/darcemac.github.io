@@ -32,5 +32,8 @@ fields:
   name: facebook
   label: 'Facebook '
   description: Add facebook URL
+- type: textarea
+  name: meta_desc
+  label: Meta Desc
 pages:
 - _data/information.yml
