@@ -6,9 +6,9 @@ fields:
 - type: text
   name: site_title
   label: Site Title
-- type: text
-  name: meta_description
-  label: Meta Description
+- type: textarea
+  name: meta_desccription
+  label: Meta Desccription
 - name: email
   label: Email
   type: text
@@ -32,8 +32,5 @@ fields:
   name: facebook
   label: 'Facebook '
   description: Add facebook URL
-- type: textarea
-  name: meta_desc
-  label: Meta Desc
 pages:
 - _data/information.yml
