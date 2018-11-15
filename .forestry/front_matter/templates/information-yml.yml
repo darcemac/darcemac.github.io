@@ -3,6 +3,12 @@ label: Contact Information
 hide_body: true
 is_partial: false
 fields:
+- type: text
+  name: site_title
+  label: Site Title
+- type: text
+  name: meta_description
+  label: Meta Description
 - name: email
   label: Email
   type: text
@@ -18,8 +24,12 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: number
+  name: phone
+  label: Phone
 - type: text
-  name: meta_description
-  label: Meta Description
+  name: insta
+  label: Insta
+  description: Add instagram URL
 pages:
 - _data/information.yml
