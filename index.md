@@ -1,5 +1,5 @@
 ---
-title: 'Colour & Interior Design Consultant '
+title: Colour & Interior Design Consultant, Dunsbrough
 banner_image: "/img/banner.png"
 layout: landing-page
 banner-tagline: The most trusted colour expert in the South-West.
