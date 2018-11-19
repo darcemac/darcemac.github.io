@@ -15,6 +15,6 @@ promo:
     assist people through the construction process to make their personal style and
     vision for their project a reality within the constraints of time, budget and
     the practicalities of building.</p>"
-description: The most trusted colour expert in the South-West.
+description: The most trusted colour expert in the South-West
 
 ---
