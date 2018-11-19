@@ -1,22 +1,12 @@
-# Site settings
-title: Bliss Colour & Design 
-email: meagan@blisscolouranddesign.com.au
-phone: 0438 409 407
-phone-clean: 0438409407
-insta: "https://www.instagram.com/blisscolouranddesign"
-facebook: "https://www.facebook.com/blisscolouranddesign"
-  
-description: > # this means to ignore newlines until "baseurl:"
-  The most trusted colour expert in the South-West.
+# Site settings 
+title: Bliss Colour and Design
+description: The most trusted colour expert in the South-West.
 
 baseurl: ""
 url: "https://blisscolouranddesign.com.au"
 
 # Jekyll version 
 version: "3.8.4" 
-
-# CloudCannon defaults
-uploads_dir: "images/uploads"
 
 # Banner-tagline
 banner-tagline: The most trusted colour expert in the South-West.
