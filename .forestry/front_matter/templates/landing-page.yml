@@ -1,0 +1,35 @@
+---
+label: Home Page
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Page Ttitle
+- type: textarea
+  description: Meta Description
+  label: Description
+  name: description
+- type: field_group
+  name: promo
+  label: Promo
+  fields:
+  - type: text
+    name: heading
+    label: Heading
+    config:
+      required: true
+  - type: textarea
+    name: description
+    label: Description
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html-blocks
+  - type: file
+    name: image
+    label: Image
+    config:
+      maxSize: '1'

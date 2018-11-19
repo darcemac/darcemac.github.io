@@ -1,5 +1,5 @@
 ---
-title: Home
+title: 'Colour & Interior Design Consultant '
 banner_image: "/img/banner.png"
 layout: landing-page
 banner-tagline: The most trusted colour expert in the South-West.
@@ -15,5 +15,6 @@ promo:
     assist people through the construction process to make their personal style and
     vision for their project a reality within the constraints of time, budget and
     the practicalities of building.</p>"
+description: The most trusted colour expert in the South-West.
 
 ---
