@@ -15,5 +15,6 @@ promo:
     assist people through the construction process to make their personal style and
     vision for their project a reality within the constraints of time, budget and
     the practicalities of building.</p>"
+description: "<p>Colour and Design</p>"
 
 ---
